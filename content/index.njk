@@ -5,24 +5,34 @@ eleventyNavigation:
   order: 1
 numberOfLatestPostsToShow: 3
 ---
-{% set postsCount = collections.posts | length %}
-{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
+{%- css %}{% include "public/css/home.css" %}{% endcss %}
 
-{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
-{% set postslistCounter = postsCount %}
-{% include "postslist.njk" %}
+<div class="flex-container flex-wrap flex-gap">
+  <div class="flex-item">
+    <div class="flex-container flex-vcenter">
+      {% image "../public/img/website-pic.jpg", "Andy Autida", [200] %}
+      <h1 class="profile-text">Andy Autida</h1>
+      <h4 class="profile-text">Software Engineer</h4>
+      <div class="flex-container socials">
+        <a href="https://github.com/andyautida14">{% feather "github" %}</a>
+        <a href="https://linkedin.com/in/risejandi-autida-533ba8118">{% feather "linkedin" %}</a>
+        <a href="https://facebook.com/andyautida14">{% feather "facebook" %}</a>
+        <a href="https://twitter.com/andy_autida">{% feather "twitter" %}</a>
+      </div>
+    </div>
+  </div>
+  <div class="flex-item">
+    {% set postsCount = collections.posts | length %}
+    {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
+    <h2>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h2>
 
-{% set morePosts = postsCount - numberOfLatestPostsToShow %}
-{% if morePosts > 0 %}
-<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="/blog/">the archive</a>.</p>
-{% endif %}
+    {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
+    {% set postslistCounter = postsCount %}
+    {% include "postslist.njk" %}
 
-{# List every content page in the project #}
-{#
-<ul>
-	{%- for entry in collections.all %}
-	<li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
-	{%- endfor %}
-</ul>
-#}
+    {% set morePosts = postsCount - numberOfLatestPostsToShow %}
+    {% if morePosts > 0 %}
+    <p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="/blog/">posts</a>.</p>
+    {% endif %}
+  </div>
+</div>

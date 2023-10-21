@@ -1,0 +1,35 @@
+.flex-container {
+  display: flex;
+}
+
+.flex-vcenter {
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-gap {
+  gap: 20px;
+}
+
+.flex-container .flex-item {
+  flex-grow: 1;
+}
+
+.profile-text {
+  color: black;
+  margin: 0;
+}
+
+.socials {
+  margin-top: 10px;
+  justify-content: space-evenly;
+  align-self: stretch;
+}
+
+.socials a[href] {
+  color: black;
+}
