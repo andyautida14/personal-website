@@ -5,11 +5,11 @@ date: 2022-10-22
 tags: website updates
 ---
 
-Several years ago, I bought the domain for this website planning of turning it into some sort of a personal portfolio and blogging website. Then I quickly made a very simple page with my face, name and link to my social accounts. It's very crude and has no useful content whatsoever, but I'm quite satisfied with what I've accomplished so far. I just have slowly add more functionality and content over time to turn it into an awesome blog, right? ...Right?
+Several years ago, I bought the domain for this website planning of turning it into some sort of a personal portfolio and blogging website. Then I quickly made a very simple page with my face, name and link to my social accounts. It's very crude and has no useful content whatsoever, but I'm still quite satisfied with what I've managed to accomplish that time. I just have slowly add more functionality and content over time to turn it into an awesome blog, right? ...Right?
 
 {% image "./initial-website.png", "What this website looks like before." %}
 
-Well, it should be obvious by now that I haven't made any improvements to it since it was initially created. It's not because I am a perfectionist who eventually got overwhelmed trying to make the perfect blog site, or a super-busy individual who has a lot of responsibilities in life. I just somehow lost interest in it and moved on to other things that hold my interest more. Also, I vaguely felt that I don't have anything to show for. I am yet to have stories that other people might find interesting to read.
+Well, it should be obvious by now that I haven't made any improvements to it since its initial creation. It's not because I am a perfectionist who eventually got overwhelmed trying to make the perfect blog site, or a super-busy individual who has a lot of responsibilities in life. I just somehow lost interest in it and moved on to other things that hold my interest more. Also, I vaguely felt that I don't have anything to show for yet. I don't have stories that other people might find interesting to read.
 
 ## Coherence of the Scattered Interests
 
@@ -29,7 +29,7 @@ Starting now, I'm going to make new blog posts every now and then. I still want 
 
 That's why I need a good static website generator, and I found [Eleventy](https://www.11ty.dev/) which I think supports all the features I need for the blog, and much more. I initially thought of making one myself, but I'm pleasantly surprised that today's static website generators are pretty good.
 
-First, I skimmed through their documentation to check out their features, and then I found that they already have this [Eleventy Base Blog](https://github.com/11ty/eleventy-base-blog), which is neat, because I don't have to start from scratch, even though starting from scratch is also not that bad since it looks very easy to use.
+First, I skimmed through their documentation to check out their features, and then I found that they already have this [Eleventy Base Blog](https://github.com/11ty/eleventy-base-blog), which is neat, because I don't have to start from scratch. Although starting from scratch is also not that bad since it looks very easy to use.
 
 I then updated the home page a little bit to add my picture, name and link to social accounts, and now I have a blog site!
 
