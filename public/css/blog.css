@@ -1,0 +1,9 @@
+.blog-figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.blog-figure figcaption {
+  text-align: center;
+  font-size: smaller;
+}

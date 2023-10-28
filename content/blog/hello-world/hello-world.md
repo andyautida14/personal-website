@@ -7,7 +7,7 @@ tags: website updates
 
 Several years ago, I bought the domain for this website planning of turning it into some sort of a personal portfolio and blogging website. Then I quickly made a very simple page with my face, name and link to my social accounts. It's very crude and has no useful content whatsoever, but I'm still quite satisfied with what I've managed to accomplish that time. I just have slowly add more functionality and content over time to turn it into an awesome blog, right? ...Right?
 
-{% image "./initial-website.png", "What this website looks like before." %}
+{% blogImage "./initial-website.png", "What this website looks like before." %}
 
 Well, it should be obvious by now that I haven't made any improvements to it since its initial creation. It's not because I am a perfectionist who eventually got overwhelmed trying to make the perfect blog site, or a super-busy individual who has a lot of responsibilities in life. I just somehow lost interest in it and moved on to other things that hold my interest more. Also, I vaguely felt that I don't have anything to show for yet. I don't have stories that other people might find interesting to read.
 
