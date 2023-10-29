@@ -19,6 +19,12 @@
   flex-grow: 1;
 }
 
+@media only screen and (min-width: 600px) {
+  .flex-container .flex-item {
+    max-width: 19em;
+  }
+}
+
 .profile-text {
   color: black;
   margin: 0;
