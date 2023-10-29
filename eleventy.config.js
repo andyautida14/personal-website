@@ -8,6 +8,7 @@ const pluginNavigation = require("@11ty/eleventy-navigation");
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 
 const eleventyPluginFeathericons = require('eleventy-plugin-feathericons');
+const eleventyPluginLinkTo = require('eleventy-plugin-link_to');
 const pluginDrafts = require("./eleventy.config.drafts.js");
 const pluginImages = require("./eleventy.config.images.js");
 
@@ -28,6 +29,9 @@ module.exports = function(eleventyConfig) {
 	// App plugins
 	eleventyConfig.addPlugin(pluginDrafts);
 	eleventyConfig.addPlugin(pluginImages);
+
+  // Inter-blog linking plugin
+  eleventyConfig.addPlugin(eleventyPluginLinkTo);
 
   // Icon plugin
   eleventyConfig.addPlugin(eleventyPluginFeathericons);
