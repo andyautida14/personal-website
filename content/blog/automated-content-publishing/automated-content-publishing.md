@@ -1,7 +1,7 @@
 ---
 title: Automated Content Publishing for Free using Github Actions
 description: Describing my Github Actions CI/CD setup for automated publishing on my personal blogging site.
-date: 2022-10-29
+date: 2023-10-29
 tags:
   - website updates
   - github actions

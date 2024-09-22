@@ -7,3 +7,20 @@
   text-align: center;
   font-size: smaller;
 }
+
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0 0.25em;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-gap {
+  gap: 20px;
+}

@@ -1,7 +1,7 @@
 ---
 title: Hello World!
 description: Introducing my new personal blogging site.
-date: 2022-10-22
+date: 2023-10-22
 tags: website updates
 ---
 
